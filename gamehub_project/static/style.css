@@ -464,3 +464,32 @@ body,
 [data-theme="light"] .login-card {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08) !important;
 }
+
+.network-status {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  z-index: 9999;
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.network-status.hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(-50%) translateY(20px);
+}
+
+.network-status.offline {
+  background-color: #dc2626; /* red */
+}
+
+.network-status.online {
+  background-color: #16a34a; /* green */
+}
