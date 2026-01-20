@@ -1248,3 +1248,39 @@ function getCSRFToken() {
 }
 
 // Duplicate theme toggle system - REMOVED to prevent conflicts
+
+window.addEventListener("offline", () => {
+  alert("You are offline. Some features may not work.");
+});
+
+window.addEventListener("online", () => {
+  location.reload();
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  const banner = document.getElementById("network-status");
+  const text = document.getElementById("network-text");
+
+  function showOffline() {
+    text.textContent = "You are offline";
+    banner.classList.remove("hidden", "online");
+    banner.classList.add("offline");
+  }
+
+  function showOnline() {
+    text.textContent = "You are back online";
+    banner.classList.remove("hidden", "offline");
+    banner.classList.add("online");
+
+    setTimeout(() => {
+      banner.classList.add("hidden");
+    }, 3000);
+  }
+
+  if (!navigator.onLine) {
+    showOffline();
+  }
+
+  window.addEventListener("offline", showOffline);
+  window.addEventListener("online", showOnline);
+});

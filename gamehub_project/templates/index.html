@@ -3,6 +3,7 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="{% static 'cursor-trail.css' %}">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GameHub - Play Free Browser Games</title>
@@ -23,7 +24,65 @@
 </head>
 
 <body data-theme="dark" class="overflow-x-hidden home-page">
+<!-- Network Status Banner -->
+<div id="network-status-banner">You are offline</div>
 
+<style>
+  #network-status-banner {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 22px;
+    border-radius: 24px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #dc2626;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+    z-index: 10000;
+    display: none;
+    transition: all 0.3s ease;
+  }
+
+  #network-status-banner.online {
+    background-color: #16a34a;
+  }
+</style>
+
+<script>
+  (function () {
+    const banner = document.getElementById("network-status-banner");
+
+    function showOffline() {
+      banner.textContent = "You are offline";
+      banner.classList.remove("online");
+      banner.style.display = "block";
+    }
+
+    function showOnline() {
+      banner.textContent = "You are back online";
+      banner.classList.add("online");
+      banner.style.display = "block";
+
+      setTimeout(() => {
+        banner.style.display = "none";
+      }, 3000);
+    }
+
+    if (!navigator.onLine) {
+      showOffline();
+    }
+
+    window.addEventListener("offline", showOffline);
+    window.addEventListener("online", showOnline);
+  })();
+</script>
+
+<div id="network-status" class="network-status hidden">
+  <span id="network-text">You are offline</span>
+</div>
 
     <!-- Animated Background -->
     <div class="fixed inset-0 z-0">
@@ -284,6 +343,21 @@
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="{% static 'main.js' %}"></script>
+
+<script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker
+        .register("/static/sw.js")
+        .then(() => console.log("Service Worker Registered"))
+        .catch((err) =>
+          console.error("Service Worker registration failed:", err)
+        );
+    });
+  }
+</script>
+<link rel="stylesheet" href="{% static 'cursor-trail.css' %}">
+<script src="{% static 'scripts/cursor-trail.js' %}"></script>
 
 </body>
 

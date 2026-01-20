@@ -4,6 +4,7 @@
 <html lang="en" data-theme="dark">
 
 <head>
+    <link rel="stylesheet" href="{% static 'cursor-trail.css' %}">
     <meta charset="UTF-8">
     <title>Leaderboard - GameHub</title>
 
@@ -23,6 +24,9 @@
 </head>
 
 <body class="bg-gray-900 text-white min-h-screen relative overflow-hidden">
+<div id="network-status" class="network-status hidden">
+  <span id="network-text">You are offline</span>
+</div>
 
     <!-- Background Gradient & Dots -->
     <div class="absolute inset-0 z-0">
@@ -103,6 +107,8 @@
         </div>
 
     </div>
+<link rel="stylesheet" href="{% static 'cursor-trail.css' %}">
+<script src="{% static 'scripts/cursor-trail.js' %}"></script>
 
 </body>
 
