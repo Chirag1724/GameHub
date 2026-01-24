@@ -493,3 +493,134 @@ body,
 .network-status.online {
   background-color: #16a34a; /* green */
 }
+
+.feedback-fab {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  z-index: 900;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, var(--primary-purple), var(--primary-pink));
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.3);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.2s ease;
+}
+
+.feedback-fab:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 2px;
+}
+
+ .feedback-fab:hover {
+   transform: translateY(-50%) scale(1.08);
+   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.35);
+   filter: brightness(1.05);
+ }
+
+ .feedback-fab:active {
+   transform: translateY(-50%) scale(0.96);
+   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
+ }
+
+@media (max-width: 768px) {
+  .feedback-fab {
+    top: auto;
+    bottom: 20px;
+    transform: none;
+    right: 16px;
+    width: 48px;
+    height: 48px;
+  }
+}
+
+.feedback-modal {
+  position: fixed;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 950;
+}
+
+.feedback-modal.open {
+  display: flex;
+}
+
+.feedback-card {
+  width: 90%;
+  max-width: 520px;
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px var(--shadow-color);
+  padding: 18px;
+  color: var(--text-primary);
+}
+
+.feedback-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.feedback-textarea {
+  width: 100%;
+  min-height: 120px;
+  resize: vertical;
+  background: var(--input-bg);
+  border: 1px solid var(--input-border);
+  color: var(--text-primary);
+  border-radius: 10px;
+  padding: 10px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.feedback-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.feedback-submit {
+  background: linear-gradient(45deg, var(--primary-purple), var(--primary-pink));
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 16px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.feedback-close {
+  background: var(--glass-bg);
+  color: var(--text-primary);
+  border: 1px solid var(--glass-border);
+  border-radius: 10px;
+  padding: 10px 16px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.feedback-message {
+  margin-top: 10px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.feedback-error {
+  color: #ef4444;
+  font-family: 'Rajdhani', sans-serif;
+  margin-top: 8px;
+}
