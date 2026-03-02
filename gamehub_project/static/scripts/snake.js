@@ -1,7 +1,7 @@
 // snake.js (New Top Lines)
-let canvas; 
+let canvas;
 let ctx;
-let tileCount; 
+let tileCount;
 // ... rest of your global variables (gridSize, snake, food, etc.)
 
 const gridSize = 20;
@@ -56,7 +56,7 @@ function trackVisit() {
     },
     credentials: "include",
     body: JSON.stringify({ game: "snake" })
-  }).catch(() => {});
+  }).catch(() => { });
 }
 
 function trackPlay() {
@@ -68,8 +68,28 @@ function trackPlay() {
     },
     credentials: "include",
     body: JSON.stringify({})
-  }).catch(() => {});
+  }).catch(() => { });
 }
+
+function saveScore(gameId, score) {
+  fetch("/accounts/save-score/", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "X-CSRFToken": getCSRFToken()
+    },
+    credentials: "include",
+    body: JSON.stringify({ game_id: gameId, score: score })
+  })
+    .then(response => response.json())
+    .then(data => {
+      if (data.status === "success" && data.message === "New high score!") {
+        showToast(`🏆 New Server High Score: ${data.high_score}`);
+      }
+    })
+    .catch(err => console.error("Error saving score:", err));
+}
+
 
 function beep(freq, duration, type = "sine") {
   if (!audioCtx) {
@@ -343,7 +363,7 @@ const keyMap = {
 };
 
 document.addEventListener("keydown", (e) => {
-  if (e.key === " "){
+  if (e.key === " ") {
     e.preventDefault();
     toggleGame();
     return;
@@ -363,7 +383,7 @@ function setupCanvasFocus() {
   canvas.setAttribute("tabindex", "0");
   canvas.style.outline = "none";
   canvas.addEventListener("click", () => canvas.focus());
-  canvas.addEventListener("touchstart", () => canvas.focus(), {passive: true});
+  canvas.addEventListener("touchstart", () => canvas.focus(), { passive: true });
 }
 setupCanvasFocus(); // Call early, but safe if canvas null
 
@@ -376,7 +396,7 @@ function setupTouchControls() {
     const t = e.touches[0];
     touchStartX = t.clientX;
     touchStartY = t.clientY;
-  }, {passive: true});
+  }, { passive: true });
 
   canvas.addEventListener("touchend", (e) => {
     if (!e.changedTouches || e.changedTouches.length === 0) return;
@@ -396,7 +416,7 @@ function setupTouchControls() {
       if (dySwipe > 0) setDirectionIfNotOpposite(0, 1);
       else setDirectionIfNotOpposite(0, -1);
     }
-  }, {passive: true});
+  }, { passive: true });
 }
 setupTouchControls(); // Call early
 
@@ -444,12 +464,17 @@ function gameOver() {
     highScore = score;
     localStorage.setItem("snakeHighScore", highScore);
     document.getElementById("highScore").textContent = highScore;
-    showToast("New high score! 🔥");
+    showToast("New local high score! 🔥");
   } else {
     showToast("Game Over");
   }
+
+  // Save to server
+  saveScore("snake", score);
+
   gameState = "gameOver";
 }
+
 
 function toggleGame() {
   const btn = document.getElementById("playPauseBtn");
@@ -549,10 +574,10 @@ window.resetGame = resetGame;
 window.changeDirection = (dir) => {
   // helpers to let HTML buttons call direction safely
   const map = {
-    up: {dx:0, dy:-1},
-    down: {dx:0, dy:1},
-    left: {dx:-1, dy:0},
-    right: {dx:1, dy:0}
+    up: { dx: 0, dy: -1 },
+    down: { dx: 0, dy: 1 },
+    left: { dx: -1, dy: 0 },
+    right: { dx: 1, dy: 0 }
   };
   const nd = map[dir];
   if (!nd) return;

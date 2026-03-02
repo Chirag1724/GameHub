@@ -8,9 +8,21 @@ class Profile(models.Model):
     visits = models.IntegerField(default=0) 
     plays = models.IntegerField(default=0)
     
-
     def __str__(self):
         return self.user.username
+
+class GameScore(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='scores')
+    game_id = models.CharField(max_length=100)
+    score = models.IntegerField(default=0)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        unique_together = ('user', 'game_id')
+
+    def __str__(self):
+        return f"{self.user.username} - {self.game_id}: {self.score}"
 
 @receiver(post_save, sender=User)
 def create_profile(sender, instance, created, **kwargs):

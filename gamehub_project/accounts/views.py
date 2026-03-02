@@ -4,7 +4,7 @@ from django.contrib.auth.models import User, auth
 from django.http import JsonResponse
 from django.contrib.auth.decorators import login_required
 from django.views.decorators.csrf import csrf_exempt
-from .models import Profile
+from .models import Profile, GameScore
 import json
 
 
@@ -147,3 +147,45 @@ def add_play(request):
     except Exception as e:
         print(f"DEBUG: Error in add_play: {e}")
         return JsonResponse({"status": "error", "message": "Internal server error"}, status=500)
+
+@csrf_exempt
+def save_score(request):
+    if not request.user.is_authenticated:
+        return JsonResponse({"status": "error", "message": "User not authenticated"}, status=401)
+    
+    try:
+        data = json.loads(request.body)
+        game_id = data.get("game_id")
+        score = data.get("score")
+        
+        if not game_id or score is None:
+            return JsonResponse({"status": "error", "message": "Missing game_id or score"}, status=400)
+        
+        # Get or create score entry
+        game_score, created = GameScore.objects.get_or_create(user=request.user, game_id=game_id)
+        
+        # Update if it's a new high score
+        if score > game_score.score:
+            game_score.score = score
+            game_score.save()
+            return JsonResponse({"status": "success", "message": "New high score!", "high_score": game_score.score})
+        
+        return JsonResponse({"status": "success", "message": "Score saved", "high_score": game_score.score})
+        
+    except Exception as e:
+        print(f"DEBUG: Error in save_score: {e}")
+        return JsonResponse({"status": "error", "message": "Internal server error"}, status=500)
+
+
+@login_required
+def profile_dashboard(request):
+    profile = get_user_profile(request.user)
+    scores = GameScore.objects.filter(user=request.user).order_by('-updated_at')
+    
+    context = {
+        'profile': profile,
+        'scores': scores,
+        'total_scores': scores.count(),
+        'best_game': scores.order_by('-score').first()
+    }
+    return render(request, 'profile.html', context)
