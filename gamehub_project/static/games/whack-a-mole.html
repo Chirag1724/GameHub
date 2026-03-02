@@ -83,6 +83,7 @@
         .stat-value {
             background: var(--primary-gradient);
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
             font-weight: 700;
@@ -252,13 +253,13 @@
             <div id="gameOverModal" class="hidden">
                 <div class="game-over-modal text-center animate__animated animate__zoomIn">
                     <h2 class="text-3xl font-bold mb-4"
-                        style="background: var(--primary-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+                        style="background: var(--primary-gradient); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">
                         Game Over!
                     </h2>
                     <div class="mb-6">
                         <p class="text-xl text-gray-300 mb-2">Final Score</p>
                         <p class="text-5xl font-bold"
-                            style="background: var(--primary-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
+                            style="background: var(--primary-gradient); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;"
                             id="finalScore">0</p>
                     </div>
                     <div class="mb-6" id="newHighScoreMsg" style="display: none;">
