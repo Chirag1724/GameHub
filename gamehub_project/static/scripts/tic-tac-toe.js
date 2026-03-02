@@ -7,18 +7,11 @@ function getCSRFToken() {
 }
 
 function saveScore(score) {
-    fetch("/accounts/save-score/", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json",
-            "X-CSRFToken": getCSRFToken()
-        },
-        credentials: "include",
-        body: JSON.stringify({ game_id: "tic-tac-toe", score: score })
-    })
-        .then(response => response.json())
-        .catch(err => console.error("Error saving score:", err));
+    if (typeof saveScoreToServer === 'function') {
+        saveScoreToServer('tic-tac-toe', score);
+    }
 }
+
 
 // Tic Tac Toe Game Logic
 let board = ['', '', '', '', '', '', '', '', ''];

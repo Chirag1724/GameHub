@@ -63,23 +63,11 @@ function trackPlay() {
 }
 
 function saveScore(gameId, score) {
-  fetch("/accounts/save-score/", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      "X-CSRFToken": getCSRFToken()
-    },
-    credentials: "include",
-    body: JSON.stringify({ game_id: gameId, score: score })
-  })
-    .then(response => response.json())
-    .then(data => {
-      if (data.status === "success" && data.message === "New high score!") {
-        showToast(`🏆 New Server High Score: ${data.high_score}`);
-      }
-    })
-    .catch(err => console.error("Error saving score:", err));
+  if (typeof saveScoreToServer === 'function') {
+    saveScoreToServer(gameId, score);
+  }
 }
+
 
 
 function beep(freq, duration, type = "sine") {
