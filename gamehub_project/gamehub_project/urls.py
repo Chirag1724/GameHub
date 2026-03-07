@@ -10,13 +10,12 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home, name='home'),
     path('accounts/', include('accounts.urls')),
+    path(
+        "offline/",
+        TemplateView.as_view(template_name="offline.html"),
+        name="offline",
+    ),
 ]
-
-path(
-    "offline/",
-    TemplateView.as_view(template_name="offline.html"),
-    name="offline",
-),
 
 from django.conf import settings
 from django.conf.urls.static import static
